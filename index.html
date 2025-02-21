@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Komcyrex</title>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="screen">0</section>
 
-<body>
-    <header>
-        <nav>
-            <ul type="circle">
-                <li><a href=>Home</a></li>
-                <li><a href="about_me.html">About Me</a></li>
-                <li><a href="contact_me.html">Contact Me</a></li>
-            </ul>
-            <p>Check about us on Google</p><img src="google.png" alt="image"><br>
-                <button><a href="https://www.google.com/" target="_blank">Google Search</a></button>
-            <p>
-                Click the button below to sign up.
-            </p>
+      <section class="calc-buttons">
+        <div class="calc-button-row">
+          <button class="calc-button double">C</button>
+          <button class="calc-button">&larr;</button>
+          <button class="calc-button">&divide;</button>
+        </div>
 
-            <button><a href="sign_up.html">Sign up</a></button>
-        </nav>
+        <div class="calc-button-row">
+          <button class="calc-button">7</button>
+          <button class="calc-button">8</button>
+          <button class="calc-button">9</button>
+          <button class="calc-button">&times;</button>
+        </div>
+        <div class="calc-button-row">
+          <button class="calc-button">4</button>
+          <button class="calc-button">5</button>
+          <button class="calc-button">6</button>
+          <button class="calc-button">-</button>
+        </div>
+        <div class="calc-button-row">
+          <button class="calc-button">1</button>
+          <button class="calc-button">2</button>
+          <button class="calc-button">3</button>
+          <button class="calc-button">&plus;</button>
+        </div>
+        <div class="calc-button-row">
+          <button class="calc-button">0</button>
+          <button class="calc-button triple"> &equals;</button>
+        </div>
+      </section>
+    </div>
 
-        <h1>Welcome to my first Website</h1>
-    </header>
-            <h2>Profile Picture</h2>
-            <div>
-                <img src="Komcyrex logo.png" alt="Logo" />
-            </div>
-            <footer>
-                <p>
-                    &copy;Copyright 2024 Komcyrex
-                </p>
-            </footer>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
